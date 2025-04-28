@@ -1,0 +1,52 @@
+
+.post-user {
+  display: flex;
+  color: var(--text-color-principal);
+  border: 1px solid var(--hr-color);
+  padding: 15px;
+}
+
+.post-user .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.post-user h3 {
+  font-family: var(--font-lexend);
+  font-size: 15px;
+}
+
+.post-user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 30px;
+}
+
+.post-user-info span {
+  text-align: justify;
+  font-family: var(--font-lato);
+  font-size: 15px;
+}
+
+.post-user-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.post-user-actions svg {
+  width: 20px;
+  height: 20px;
+}
+
+.post-user-actions button {
+  display: flex;
+  gap: 10px;
+  background: none;
+  border: none;
+  color: var(--text-color-principal);
+  font-size: 14px;
+  align-items: center;
+  cursor: pointer;
+}
