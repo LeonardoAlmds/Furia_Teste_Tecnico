@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+.navbar button {
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+  background: none;
+  color: var(--text-color-principal);
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.navbar button svg {
+  width: 20px;
+  height: 20px;
+}

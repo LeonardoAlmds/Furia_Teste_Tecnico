@@ -1,3 +1,4 @@
+import "./Home.css";
 import PostUser from "../../components/PostUser/PostUser";
 
 const Home = () => {
